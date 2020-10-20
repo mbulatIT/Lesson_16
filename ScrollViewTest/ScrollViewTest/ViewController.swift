@@ -16,11 +16,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
-        let person = Person(name: "Hola", age: 25)
-        
-        
-        count = UserDefaults.standard.integer(forKey: UserDefaultKey.userCount.rawValue)
+        if let count = UserDefaults.standard.value(forKey: .userCount) as? Int {
+            self.count = count
+        }
         //value(forKey: UserDefaultKey.userCount.rawValue) as? Int
         // Do any additional setup after loading the view.
     }

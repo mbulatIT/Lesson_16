@@ -8,7 +8,11 @@
 import Foundation
 
 extension UserDefaults {
-    func setValue(_ value: Any?, forKey key: UserDefaultKey) {
+    func setValue(_ value: Any?, forKey key: UserDefaultsKeys) {
         setValue(value, forKey: key.rawValue)
+    }
+    
+    func value(forKey key: UserDefaultsKeys) -> Any? {
+        value(forKey: key.rawValue)
     }
 }

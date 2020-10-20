@@ -13,7 +13,7 @@
 		953E061D253DFD9D00D892DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953E061B253DFD9D00D892DC /* Main.storyboard */; };
 		953E061F253DFDA100D892DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 953E061E253DFDA100D892DC /* Assets.xcassets */; };
 		953E0622253DFDA100D892DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 953E0620253DFDA100D892DC /* LaunchScreen.storyboard */; };
-		953E062B253E10B500D892DC /* UserDefaultKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E062A253E10B500D892DC /* UserDefaultKey.swift */; };
+		953E062B253E10B500D892DC /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E062A253E10B500D892DC /* UserDefaultsKeys.swift */; };
 		953E0630253E11B500D892DC /* UserDefaults+Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E062F253E11B500D892DC /* UserDefaults+Keys.swift */; };
 		953E0633253E16E800D892DC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E0632253E16E800D892DC /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -27,7 +27,7 @@
 		953E061E253DFDA100D892DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		953E0621253DFDA100D892DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		953E0623253DFDA100D892DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		953E062A253E10B500D892DC /* UserDefaultKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultKey.swift; sourceTree = "<group>"; };
+		953E062A253E10B500D892DC /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 		953E062F253E11B500D892DC /* UserDefaults+Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Keys.swift"; sourceTree = "<group>"; };
 		953E0632253E16E800D892DC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,7 +65,7 @@
 				953E0615253DFD9D00D892DC /* AppDelegate.swift */,
 				953E0617253DFD9D00D892DC /* SceneDelegate.swift */,
 				953E0619253DFD9D00D892DC /* ViewController.swift */,
-				953E062A253E10B500D892DC /* UserDefaultKey.swift */,
+				953E062A253E10B500D892DC /* UserDefaultsKeys.swift */,
 				953E0632253E16E800D892DC /* Person.swift */,
 				953E062F253E11B500D892DC /* UserDefaults+Keys.swift */,
 				953E061B253DFD9D00D892DC /* Main.storyboard */,
@@ -147,7 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				953E0633253E16E800D892DC /* Person.swift in Sources */,
-				953E062B253E10B500D892DC /* UserDefaultKey.swift in Sources */,
+				953E062B253E10B500D892DC /* UserDefaultsKeys.swift in Sources */,
 				953E061A253DFD9D00D892DC /* ViewController.swift in Sources */,
 				953E0630253E11B500D892DC /* UserDefaults+Keys.swift in Sources */,
 				953E0616253DFD9D00D892DC /* AppDelegate.swift in Sources */,
